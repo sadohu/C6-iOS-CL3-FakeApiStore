@@ -14,6 +14,5 @@ struct Product : Codable{
     var description : String;
     var category : String;
     var image : String;
-    var rate : Double;
-    var count : Int;
+    var rating : Rating;
 }
